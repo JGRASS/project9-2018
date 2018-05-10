@@ -7,6 +7,7 @@ import recept.Kuvar;
 public class GuiKontroler {
 	public static GlavniProzor gp;
 	public static Kuvar kuvar;
+	public static PretraziProzor pp;
 	/**
 	 * Launch the application.
 	 */
@@ -22,6 +23,10 @@ public class GuiKontroler {
 				}
 			}
 		});
+	}
+	public static void  otvoriP() {
+		pp=new PretraziProzor();
+		pp.setVisible(true);
 	}
 	
 }
